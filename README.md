@@ -2,6 +2,7 @@
 A simple Raspberry Pi photo frame web page, built on PHP.
 
 This is intended to run on a Raspberry PI in fullscreen mode. It can however be run on any server or stack that supports PHP.
+All that is needed for basic setup is to put all the files onto a web server. 
 
 This is my initial guide. I have been refining the layout ever since. 
 This will help you get started, if you need help setting up your PI.
