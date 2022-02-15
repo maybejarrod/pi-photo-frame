@@ -7,6 +7,8 @@ This is my initial guide. I have been refining the layout ever since.
 This will help you get started, if you need help setting up your PI.
 https://jarrodstech.net/project-raspberry-pi-information-screen-and-slideshow/
 
+![alt text](https://jarrodstech.net/wp-content/uploads/2022/02/example.jpg)
+
 Edit the data.json file to change some options.
 
 Settings:
