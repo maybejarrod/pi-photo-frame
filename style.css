@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Caveat&display=swap');
+
+body{
+    background-image: url(slideshowimages/ca02010acde87e065f0acc90ef359edc.jpg);
+    background-position: center ;
+    background-repeat: no-repeat;
+    font-family: 'Cabin', sans-serif;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+.container {
+    display: grid;
+    grid-template-columns: [left] 40% [center] auto [right] 40%;
+    grid-template-rows: [top] 25% [middle] auto [bottom] 15% [bottom] 40px;
+    column-gap: 15px;
+    row-gap: 15px;
+    grid-template-areas:
+      "top-left top-center top-right"
+      "center-left center-center center-right"
+      "bottom-left bottom-center bottom-right"
+      "footer-left footer-center footer-right";
+    justify-items: center;
+    align-items: center;
+    justify-content: stretch;
+    align-content: stretch;
+    min-height: 100vh;
+}
+.item-a{
+    grid-area: top-left;
+    align-self: start;
+    justify-self: start;
+    margin-left: 20px;
+}
+.item-c{
+    grid-area: top-right;
+    justify-self:normal;
+    align-self: start;
+    margin-top: 20px;
+}
+.item-d{
+    grid-area: bottom-left / bottom-left / bottom-right / bottom-right;
+    align-self: end;
+    text-align: center;
+}
+.item-e{
+    grid-area: footer-left / footer-left / footer-right / footer-right;
+    align-self: end;
+    justify-self: end;
+    background-color: black;
+    font-size: 25px;
+    padding-top: 2px;
+}
+h3{
+    font-size: 38px;
+    font-weight: 400;
+}
+p{
+    font-family: Caveat;
+    font-size: 45px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
