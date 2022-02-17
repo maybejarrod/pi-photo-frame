@@ -23,3 +23,5 @@ Backgrounds:
 Notes:
 - If you delete the data.jason file, running the backend.php file will re-creeate it for you.
 - The quote is downloaded from an RSS feed. If you call the API to many times it will give an error. The Quote is backed up to a file "Quote.txt". This will be used if the api returns an error.
+
+I will be adding features and updated when I can.
